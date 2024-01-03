@@ -3,8 +3,7 @@
 hash tar uname grep curl head
 
 OS="$(uname)"
-PROXY="https://ghproxy.com/"
-
+##PROXY="https://hub.fgit.ml"
 case $OS in
   Linux)
     OS='linux'
